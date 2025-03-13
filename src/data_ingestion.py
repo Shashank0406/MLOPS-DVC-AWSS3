@@ -88,7 +88,7 @@ def main():
     try:
         # params = load_params(params_path='params.yaml')
         # test_size = params['data_ingestion']['test_size']
-        test_size = 0.3
+        test_size = 0.4
         data_path = '/Users/shashank/Projects/MLOPS-DVC-AWSS3/data/spam.csv'
         df = load_data(data_url=data_path)
         final_df = preprocess_data(df)
